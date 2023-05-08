@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "posts/subset-selection/index.html",
+    "href": "posts/subset-selection/index.html",
+    "title": "Subset Selection",
+    "section": "",
+    "text": "This is a post with executable code.\n\nmydata<-ISLR2::Credit\n\nmodel<-lm(Rating~., data=mydata)\n\nsummary(model)\nCall:\nlm(formula = Rating ~ ., data = mydata)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-23.3598  -7.3602  -0.6895   6.2918  27.5461 \n\nCoefficients:\n             Estimate Std. Error t value Pr(>|t|)    \n(Intercept) 32.008407   4.135731   7.739 8.74e-14 ***\nIncome       0.123873   0.046848   2.644  0.00852 ** \nLimit        0.063192   0.001426  44.309  < 2e-16 ***\nCards        4.596743   0.391004  11.756  < 2e-16 ***\nAge          0.012590   0.030358   0.415  0.67858    \nEducation   -0.234910   0.163793  -1.434  0.15232    \nOwnYes       0.220363   1.019729   0.216  0.82902    \nStudentYes  -2.006844   2.805020  -0.715  0.47476    \nMarriedYes   2.382346   1.058422   2.251  0.02495 *  \nRegionSouth -0.309647   1.255101  -0.247  0.80526    \nRegionWest  -2.006170   1.449253  -1.384  0.16707    \nBalance      0.011990   0.005179   2.315  0.02112 *  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 10.15 on 388 degrees of freedom\nMultiple R-squared:  0.9958,    Adjusted R-squared:  0.9957 \nF-statistic:  8399 on 11 and 388 DF,  p-value: < 2.2e-16\nMaking the plots will be as easy as mentioned below\n\nplot(mydata$Income, mydata$Rating)"
+  },
+  {
+    "objectID": "posts/post-code-with-R/index.html",
+    "href": "posts/post-code-with-R/index.html",
+    "title": "Post With R Code",
+    "section": "",
+    "text": "Subset selection\n\nmydata<-ISLR2::Credit\n\nmodel<-lm(Rating~., data=mydata)\n\nsummary(model)\nCall:\nlm(formula = Rating ~ ., data = mydata)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-23.3598  -7.3602  -0.6895   6.2918  27.5461 \n\nCoefficients:\n             Estimate Std. Error t value Pr(>|t|)    \n(Intercept) 32.008407   4.135731   7.739 8.74e-14 ***\nIncome       0.123873   0.046848   2.644  0.00852 ** \nLimit        0.063192   0.001426  44.309  < 2e-16 ***\nCards        4.596743   0.391004  11.756  < 2e-16 ***\nAge          0.012590   0.030358   0.415  0.67858    \nEducation   -0.234910   0.163793  -1.434  0.15232    \nOwnYes       0.220363   1.019729   0.216  0.82902    \nStudentYes  -2.006844   2.805020  -0.715  0.47476    \nMarriedYes   2.382346   1.058422   2.251  0.02495 *  \nRegionSouth -0.309647   1.255101  -0.247  0.80526    \nRegionWest  -2.006170   1.449253  -1.384  0.16707    \nBalance      0.011990   0.005179   2.315  0.02112 *  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 10.15 on 388 degrees of freedom\nMultiple R-squared:  0.9958,    Adjusted R-squared:  0.9957 \nF-statistic:  8399 on 11 and 388 DF,  p-value: < 2.2e-16\nMaking the plots will be as easy as mentioned below\n\nplot(mydata$Income, mydata$Rating)"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Hello, and Welcome To My Blog!",
+    "section": "",
+    "text": "Hi,\nThis is pavan kumar bodepudi\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Pavan kumar bodepudi",
+    "section": "",
+    "text": "Hello, and Welcome To My Blog!\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 5, 2023\n\n\nPavan kumar bodepudi\n\n\n\n\n\n\n  \n\n\n\n\nPost With R Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 8, 2023\n\n\nPavan kumar bodepudi\n\n\n\n\n\n\n  \n\n\n\n\nSubset Selection\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 9, 2023\n\n\nPavan kumar bodepudi\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Hello, I’m Pavan kumar bodepudi",
+    "section": "",
+    "text": "Data Scientist, Trainer & Mentor"
+  }
+]
